@@ -1,0 +1,110 @@
+/* ul{
+    list-style-type:decimal;
+} */
+/* ol{
+    list-style-type: disc;
+} */
+/* ol{ */
+    /* list-style-position: inside;
+    list-style-image:url("./assets/images/favorite.png"); */
+    /* list-style : url("./assets/images/favorite.png") inside  lower-alpha ; */
+/* } */
+
+table{
+    width: 400px;
+    background-color: antiquewhite;
+    /* border: 5px double red ; */
+    border-top: 2px solid yellow;
+    border-bottom: 5px dotted red;
+    margin: auto;
+    border-collapse: separate;
+    border-spacing: 30px;
+   
+  
+    /* border-radius: 10px; */
+}
+td{
+
+    border: 1px solid grey;
+   text-align: center;
+   /* padding: 5px; */
+   /* border-radius: 50px; */
+   /* border-top-left-radius: 50px; */
+   text-transform: uppercase;
+   font-family: 'Courier New', Courier, monospace;
+   cursor:crosshair;
+   user-select: none; 
+   empty-cells: hide;
+}	
+
+/* td{
+    font-size: 30px;
+} */
+
+input{
+    background-image: url("./assets/images/email.png");
+    background-repeat: no-repeat;
+    background-position: 10px 5px;
+    background-size: 40px;
+    margin-bottom: 20px;
+    /* background-color: aqua; */
+    color: brown;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid yellow;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 100px rgb(147, 143, 143);
+    padding: 10px;
+    padding-left: 60px;
+    background-repeat: no-repeat;
+    background-position: 10px 5px;
+    background-size: 40px;
+
+    width: 60%;
+    display: block;
+  
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+input[type="text"]{
+    background-image: url("./assets/images/email.png");
+    margin-bottom: 20px;
+}
+
+input[type="password"]{
+    background-image: url("./assets/images/hide.png");
+}
+
+input:hover{
+    border: 2px solid rgb(22, 69, 2);
+    
+}
+h1{
+    text-align: center;
+
+}
+form{
+    width: 600px;
+    margin: auto;
+    border: 2px  dotted green;
+}
+button{
+    background-color: aquamarine;
+    width: 150px;
+    height: 30px;
+    display: block;
+    margin: auto;
+    border: 3px double rgb(244, 243, 242);
+    margin-bottom: 20px;
+    font-size: 25;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+button:hover{
+    box-shadow: 10px 10px 50px grey;
+    height: 33px;
+    
+}
